@@ -13,14 +13,14 @@ if str.isdigit(temperature):
 # If it is Farenheit
     if temp_unit == "F":
 # Do MATH
-       new_temperature = (integer_version_temperature-32 )*(5/9)
+       new_temperature = int((integer_version_temperature-32 )*(5/9))
        print("The temperature is ")
        print(new_temperature)
 
 # If it is Celsius
     elif temp_unit == "C":
 # Do MATH
-       new_temperature = (integer_version_temperature*(9/5))+32 
+       new_temperature = int((integer_version_temperature*(9/5))+32)
        print("The temperature is ")
        print(new_temperature)
 
