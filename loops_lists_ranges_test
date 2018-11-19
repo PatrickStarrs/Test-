@@ -1,0 +1,44 @@
+# Using for loops in a list to apply an action to every item in a list
+# Lists use brackets with quotes for each variable within the list
+
+users = ['Patrick', 'Mary', 'Joey']
+for user in users: 
+	print (user)
+
+users = ['Patrick', 'Mary', 'Joey']
+for user in users: 
+	print(user + ', is a user!')
+
+
+users = ['Patrick', 'Mary', 'Joey']
+for user in users: 
+	print(user + ', is a user!')
+print("these are all current users")
+
+animals = ['Dog' , 'Cat' , 'Lizard']
+for animal in animals:
+	print ('a ' + animal + ' would make a good pet')
+print ('They would all make a great pet!')
+
+# counts up to 20, but does not include 20
+for value in range(1,20):
+	print(value)
+
+
+# uses the list function to convert the range to a list
+numbers = list(range(1,20))
+print (numbers)
+
+#Starting at 1, this counts 5 up until 100
+even_numbers = list(range(1,106,5))
+print(even_numbers)
+
+
+#starts with an empty list called squares. For values in the range of 1-11, values are squared and appended to the square variable
+squares = []
+for value in range(1,11):
+	square = value**2
+	squares.append(square)
+print(squares)
+
+min(squares)
